@@ -250,7 +250,18 @@ margin-top: 10px;
 .social [class^="fw-icon-"]:hover{background: #454855; color: #34b091; transition:all 1s;}
 .social li{display: inline-block;}
 
-.copy-rights{color: #34b091;font-family: 'source_sans_proregular'; background: #454855; padding: 35px 0;}
+.copy-rights-menu{color: #34b091;
+    font-family: 'source_sans_proregular';
+    background: #454855;
+    padding: 35px 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;}
+.copy-rights{color: #34b091;
+    font-family: 'source_sans_proregular';
+    background: #454855;
+    padding: 35px 0;}
 .copy-rights a{color: #34b091;font-size: 14px; font-family: 'source_sans_proregular'; text-decoration: none;}
 .copy-rights a:hover{color: #fff;}
 
