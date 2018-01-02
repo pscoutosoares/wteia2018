@@ -74,7 +74,14 @@
 /************************************************
 	Global styles starts here
  ************************************************/
-body{background: #e6e6e6; color: #888888; font-size: 14px; line-height: 24px; min-height: 100vh}
+html {height: 100%;}
+body{background: #e6e6e6; color: #888888; font-size: 14px; line-height: 24px; position: relative; margin: 0; min-height: 100%;}
+footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+}
 h1, h2, h3, h4, h5, h6{margin: 0;}
 h1{}
 h2{}
@@ -90,9 +97,10 @@ p{padding-bottom: 25px; margin: 0;}
 /************************************************
 	Menu styles starts here
  ************************************************/
-.header-wrapper{overflow: hidden; text-align: center; background: #fff; padding-top: 60px; padding-bottom: 40px;}
+.header-wrapper{overflow: hidden; text-align: center; background: #fff; padding-top: 15px; padding-bottom: 15px; padding-right: }
+.header-wrapper h1{overflow: hidden; text-align: left; background: #fff; padding-top: 3%; padding-bottom: 15px;}
 .site-name{display: inline-block;}
-.site-name h1{margin: 0; font-size: 44px; color: #34b091; font-family: 'source_sans_probold'; text-transform: uppercase; letter-spacing: 2px;}
+.site-name h1{margin: 0; font-size: 2vw; color: #34b091; font-family: 'source_sans_probold'; text-transform: uppercase; letter-spacing: 2px;}
 .site-name h2{font-size: 18px; line-height: 24px; color: #cac8c8; font-family: 'source_sans_prolight';}
 .menu{text-align: center; background: #34b091; height: 52px;}
 .navbar{display: inline-block; margin-bottom: 0;}
@@ -134,20 +142,18 @@ p{padding-bottom: 25px; margin: 0;}
 .banner .carousel-caption h1{margin: 0; font-size: 60px;font-family: 'source_sans_probold'; color: #fff; letter-spacing: 5px; text-transform: uppercase; padding-bottom: 20px;}
 .banner .carousel-caption h2{font-size: 28px; line-height: 36px;font-family: 'source_sans_prolight'; color: #fff; letter-spacing: 3px; padding-bottom: 20px;}
 .banner .carousel-caption .btn{color: #fff; font-size: 22px; line-height: 28px; font-family: 'source_sans_problack'; text-transform: uppercase; padding: 10px 25px; background: #34b091; border-radius: 40px; box-shadow: 0 3px 2px 0px #4a4c54; }
-.banner .carousel-caption .btn:hover{color: #34b091; background: #fff; transition:all 1s;}
 .banner .carousel-control {top: 45%; width: 40px; height: 40px; line-height: 42px; font-size: 30px; background: #34b091; 
-                            border-radius: 50px; bottom: 42%; opacity: 0.8;}
-.banner .carousel-control:hover{background: #3b3e4a;}                            
+                            border-radius: 50px; bottom: 42%; opacity: 0.8;}                           
 .banner .carousel-control.right{right: 10%;}
 .banner .carousel-control.left{left: 10%;}
+.banner .carousel-inner img{min-width: 100%; overflow:hidden; padding-bottom: 2%}
 
-    .banner .carousel-caption h1{ opacity: 0;}
-    .banner .carousel-caption h2{ opacity: 0;}
-    .banner .carousel-caption .btn{opacity: 0;}
-    .banner .carousel-inner:hover img{-webkit-filter: blur(5px); transition:all 5s; }
-    .banner .carousel-inner:hover h1{ transition:all 1s; opacity: 0.9 !important;  }
-    .banner .carousel-inner:hover h2{ transition:all 1s; opacity: 0.9 !important;  }
-    .banner .carousel-inner:hover .btn{ transition:all 1s; opacity: 0.9 !important;  }
+.banner .carousel-caption h1{ opacity: 0;}
+.banner .carousel-caption h2{ opacity: 0;}
+.banner .carousel-caption .btn{opacity: 0;}
+.banner .carousel-inner:hover h1{ transition:all 1s; opacity: 0.9 !important;  }
+.banner .carousel-inner:hover h2{ transition:all 1s; opacity: 0.9 !important;  }
+.banner .carousel-inner:hover .btn{ transition:all 1s; opacity: 0.9 !important;  }
 
 /************************************************
 	generic styles starts here
@@ -230,7 +236,7 @@ margin-top: 10px;
  ************************************************/
 
 /************************************************
-	Footer styles starts here
+	/ styles starts here
  ************************************************/
 .footer-wrapper{background: #3b3e4a;}
 .site-content{padding: 55px 0; overflow: hidden;}
@@ -253,8 +259,8 @@ margin-top: 10px;
 .copy-rights{color: #34b091;
     font-family: 'source_sans_proregular';
     background: #454855;
-    padding: 25px 0;
-    position: absolute;
+    padding: 1%;
+    bottom: 0px;
     left:0px;
     width:100%;}
 .copy-rights a{color: #34b091;font-size: 14px; font-family: 'source_sans_proregular'; text-decoration: none;}
