@@ -8,7 +8,7 @@
     <meta name="author" content="">
    
 
-    <title>All Template Needs</title>
+    <title>WTEIA-2018</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -18,26 +18,60 @@
     <link rel="stylesheet" href="css/font-awesome.css">
 	
      
-	 <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/demo.css">
     <link rel="stylesheet" href="css/font-awesome-ie7.css">
 
-      <script src="js/jquery.mobilemenu.js"></script>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-      <script>
-    $(document).ready(function(){
-        $('.menu').mobileMenu();
-    });
-  </script>
- 
+    <script src="js/jquery.mobilemenu.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <script>
+      $(document).ready(function(){
+          $('.menu').mobileMenu();
+      });
+
+
+    </script>
+    <style type="text/css">
+      .table{
+        margin: 70px auto;
+        position: absolute;
+      }
+
+      .table-bordered td{
+        border: 2px solid #ababab;
+      }
+
+      .table-bordered{
+        border: 2px solid #ababab;
+      }
+
+      .tabela-cabecalho{
+        color: #ffffff;
+        background-color: #34b091;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .nav-tabs {
+        margin-top: 60px;
+      }
+
+      .copy-rights{
+        position: absolute;
+        margin-top: 180px;
+      }
+
+    </style>
   </head>
 
-  <body>
-    <div style="margin-left: 5%; margin-right: 5%; min-height: 100vh">
+  <body >
+    <div style="margin-left: 5%; margin-right: 5%;">
       <div class="header-wrapper">
-        <div class="site-name">
-          <h1>sitename</h1>
-          <h2>lorem ipsum dolor sit amet vivamus</h2>
+        <div class="col-sm-4">
+          <img src="img/wteia-logo.png" alt="" style="width: 66% ">
+        </div>
+        <div class="site-name col-sm-8" style="max-width: 80%;">
+          <h1>Workshop de Tecnologia, Empreendedorismo e Inovação do Agreste Penambucano</h1>
         </div>
       </div>
       <div class="menu">
@@ -52,8 +86,9 @@
               <ul class="nav navbar-nav">
                 <li><a href="index.html">Página inicial</a></li>
                 <li><a href="programacao.html">Programação</a></li>
-                <li><a href="#">Inscrições</a></li>
-                <li><a href="#">Informações</a></li>
+                <li><a href="inscricoes.html">Inscrições</a></li>
+                <li><a href="informacoes.html">Informações</a></li>
+                <li><a href="sobre.html">Sobre o W-Teia</a></li>
               </ul>
             </div><!--/.navbar-collapse -->
           </div>
@@ -63,37 +98,257 @@
             <select class="selectnav">
               <option value="#" selected="">Página inicial</option>
               <option value="#">Programação</option>
-              <option value="#">→ Another action</option>
-              <option value="#">→ Something else here</option>
-              <option value="#">→ Another action</option>
-              <option value="#">→ Something else here</option>
               <option value="#">Inscrições</option>
               <option value="#">Informações</option>
+              <option value="#">Sobre o W-Teia</option>
             </select>
           </label>
         </div>
       </div>
-    </div>   
-      <div class="copy-rights">
-        <div class="container">
-          <div class="row"> 
-            <div class="col-md-6">
-              Copyright(c) website name. Designed by: <a href="http://www.alltemplateneeds.com"> www.alltemplateneeds.com</a>
-            </div>
-            <div class="col-md-6">
-            Images from: <a href="http://www.wallpapers22wide.com">http://wallpaperswide.com</a> / <a href="http://www.wa22222llcoo.net"> www.wallcoo.net</a>
+
+      <nav class="container">
+        <div class="col-md-8 col-md-offset-2">
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-principal-tab" data-toggle="tab" href="#nav-principal" role="tab" aria-controls="nav-principal" aria-selected="true">Principal</a>
+        <a class="nav-item nav-link" id="nav-palestras-tab" data-toggle="tab" href="#nav-palestras" role="tab" aria-controls="nav-palestras" aria-selected="false">Palestras</a>
+        <a class="nav-item nav-link" id="nav-paineis-tab" data-toggle="tab" href="#nav-paineis" role="tab" aria-controls="nav-paineis" aria-selected="false">Painéis</a>
+        <a class="nav-item nav-link" id="nav-minicursos-tab" data-toggle="tab" href="#nav-minicursos" role="tab" aria-controls="nav-minicursos" aria-selected="false">Minicursos</a>
+        </div>
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-principal" role="tabpanel" aria-labelledby="nav-principal-tab">
+          <div>
+            <div class="col-md-10 col-md-offset-1">
+              <table class='table table-bordered'>
+            
+                <tr class="tabela-cabecalho">
+                  <td>Data</td>
+                  <td>Local</td>
+                  <td>Evento</td>
+                </tr> 
+                <tr>
+                  <td>23/04/2018</td>
+                  <td>AESGA</td>
+                  <td>
+                    <ul>
+                      <li>19:00h - Solenidade de Abertura</li>
+                      <li>19:30h - Mesa Redonda</li>
+                      <li>21:30h - Encerramento</li>
+                    </ul>
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td rowspan="3">24/04/2018</td>
+                  <td>UFRPE</td>
+                  <td>
+                    <ul>
+                      <li>08:30h às 10:15h - Minicurso de Dados Abertos</li>
+                      <li>10:30h às 12:00h - Minicurso Canvas Model</li>
+                      <li>13:30h às 17:30h - Minicurso Desenvolvimento Web</li>
+                    </ul>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>UPE</td>
+                  <td>
+                    <ul>
+                      <li>08:30 às 12:00h - Minicurso Desenvolvimento de aplicações móveis com a plataforma microsoft</li>
+                      <li>13:30 às 17:30h - Minicurso Design Thinking</li>
+                    </ul>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>AESGA</td>
+                  <td>
+                    <ul>
+                      <li>19:00h - Abertura dos Trabalhos</li>
+                      <li>19:10h - Palestra I</li>
+                      <li>19:50h - Palestra II</li>
+                      <li>20:50h - Palestra III</li>
+                      <li>21:10h - Palestra IV</li>
+                      <li>22:00h - Encerramento</li>
+                    </ul>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td rowspan="3">25/04/2018</td>
+                  <td>UFRPE</td>
+                  <td>
+                    <ul>
+                      <li>08:30h às 10:15h - Minicurso de Dados Abertos</li>
+                      <li>10:30h às 12:00h - Minicurso Canvas Model</li>
+                      <li>13:30h às 17:30h - Minicurso Desenvolvimento Web</li>
+                    </ul>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>UPE</td>
+                  <td>
+                    <ul>
+                      <li>08:30 às 12:00h - Minicurso Desenvolvimento de aplicações móveis com a plataforma microsoft</li>
+                      <li>13:30 às 17:30h - A definir</li>
+                    </ul>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>AESGA</td>
+                  <td>
+                    <ul>
+                      <li>19:00h - Abertura dos trabalhos</li>
+                      <li>19:10h - Painel I</li>
+                      <li>20:00h - Palestra</li>
+                      <li>21:00h - Painel II</li>
+                      <li>22:00h - Encerramento</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
             </div>
           </div>
         </div>
+
+        <div class="tab-pane fade" id="nav-palestras" role="tabpanel" aria-labelledby="nav-palestras-tab">
+          <div>
+            <div class="col-md-10 col-md-offset-1">
+              <table class='table table-bordered'>
+            
+                <tr class="tabela-cabecalho">
+                  <td>Data</td>
+                  <td>Local</td>
+                  <td>Evento</td> 
+                </tr> 
+                <tr>
+                  <td>24/04/2018 (Terça-feira)</td>
+                  <td>AESGA</td>
+                  <td>
+                    <ul>
+                      <li>19:00h Abertura dos trabalhos.</li>
+                      <li>19:10h Palestra I: Inovando na sua empresa com o SEBRAETEC. Palestrante: A definir.</li>
+                      <li>19:50h Palestra II: Desenvolvimento de software com o DNA de Garanhuns: o case da Idealizza. Palestrante: Yuri Notaro – Sócio da Idealizza.</li>
+                      <li>20:50h Palestra III: Protegendo a propriedade intelectual de negócios inovadores. Palestrante: Marcelo Vieira.</li>
+                      <li>21:10h Palestra IV: Investimento anjo e sua importância para o ecossistema.</li>
+                      <li>22:00h Encerramento.</li>
+                    </ul>
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td>25/04/2018 (Quarta-feira)</td>
+                  <td>AESGA</td>
+                  <td>
+                    <ul>
+                      <li>19:00h Abertura dos trabalhos.</li>
+                      <li>20:00h Palestra V : O papel das incubadoras no ecossistema de inovação. Palestrante: Representante do ITEP.</li>
+                      <li>22:00h Encerramento.</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="nav-paineis" role="tabpanel" aria-labelledby="nav-paineis-tab">
+          <table class="table table-bordered">
+            <div class="col-md-1 col-md-offset-1">
+              <tr class="tabela-cabecalho">
+                <td>Data</td>
+                <td>Local</td>
+                <td>Evento</td>
+                <td>Palestrantes(s)</td>
+              </tr>
+
+              <tr>
+                <td rowspan="5">25/04/2018</td>
+                <td rowspan="5">AESGA</td>
+                <td>19:00h. Abertura dos trabalhos.</td>
+                <td></td>
+              </tr>
+                
+              <tr>
+                <td rowspan="4">19:10h Painel I: Apresentação de cases de sucesso de startups.</td>
+                <td>Representante da Inloco media.</td>
+              </tr>
+              <tr>
+                <td>Representante da Lotebox</td>
+              </tr>
+              <tr>
+                <td>Representante da MangueBit.</td>
+              </tr>
+              <tr>
+                <td>Representante do vencedor do Hack a city Garanhuns.</td>
+              </tr> 
+                
+              
+            </div>
+          </table>
+        </div>
+        <div class="tab-pane fade" id="nav-minicursos" role="tabpanel" aria-labelledby="nav-minicursos-tab">
+          <table class="table table-bordered">
+            <div class="col-md-1 col-md-offset-1">
+              <tr class="tabela-cabecalho">
+                <td>Data</td>
+                <td>Local</td>
+                <td>Minicurso</td>
+              </tr>
+
+              <tr>
+                <td rowspan="5">24/04/2018 e 25/04/2018</td>
+                <td rowspan="2">UFRPE</td>
+                <td>08:30h às 10:15h: Minicurso de Dados Abertos. Responsável: Aline Daniele</td>
+              </tr>
+                
+              <tr>
+                <td>10:30h às 12:00h: Minicurso de Canvas Model. Responsável: Professor Leonardo Soares e Silva (IFPE)</td>
+              </tr>
+              <tr>
+                <td>UPE</td>
+                <td>08:30 às 12:00h: Minicurso Desenvolvimento de aplicações móveis com a plataforma microsoft. Responsável: Severino Neto</td>
+              </tr>
+              <tr>
+                <td>UFRPE</td>
+                <td>13:30h às 17:30h: Minicurso Desenvolvimento Web. Responsável: Igor Vanderlei (UFRPE)</td>
+              </tr>
+              <tr>
+                <td>UPE</td>
+                <td>13:30 às 17:30h: Minicurso Design Thinking. Responsável: Professor Higor Monteiro (UPE)</td>
+              </tr> 
+                
+              
+            </div>
+          </table>
+        </div>
+        </div>
       </div>
 
+    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery-1.9.1.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    
-    
+    <script type="text/javascript">
+      $("#carousel-example-generic").carousel();
+    </script>
   </body>
+  <footer>
+     <div class="copy-rights" >
+      <div class="container">
+        <div class="row"> 
+          <div class="col-md-6">
+            Desenvolvido por <a href="https://www.facebook.com/TimeJunior/">TIME JR. - Empresa Júnior de Ciência da Computação de Garanhuns</a>
+          </div>
+          <div class="col-md-6">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </html>
