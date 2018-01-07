@@ -93,21 +93,29 @@ p{padding-bottom: 25px; margin: 0;}
 .last{padding-bottom: 0;}
 .ruler{border-bottom: 1px solid #c9c9c9;}
 .img-spacing{margin-right: 30px; margin-bottom: 30px;}
+.mainpage{margin-left: 5%; margin-right: 5%;}
 
 /************************************************
 	Menu styles starts here
  ************************************************/
-.header-wrapper{overflow: hidden; text-align: center; background: #fff; padding-top: 15px; padding-bottom: 15px; padding-right: }
-.header-wrapper h1{overflow: hidden; text-align: left; background: #fff; padding-top: 3%; padding-bottom: 15px;}
+
+
+.header-wrapper{overflow: hidden; text-align: center; background: #fff; padding-top: 15px; padding-bottom: 15px;}
+.header-wrapper h1{overflow: hidden; text-align: left; background: #fff; padding-top: 4%;}
+.header-wrapper img{width: 80%;}
 .site-name{display: inline-block;}
-.site-name h1{margin: 0; font-size: 2vw; color: #34b091; font-family: 'source_sans_probold'; text-transform: uppercase; letter-spacing: 2px;}
+.site-name h1{margin: 0; font-size: 2.5vw; color: #808080; font-family: 'source_sans_probold'; text-transform: uppercase; letter-spacing: 2px; margin-left: -3%;}
 .site-name h2{font-size: 18px; line-height: 24px; color: #cac8c8; font-family: 'source_sans_prolight';}
 .menu{text-align: center; background: #34b091; height: 52px;}
 .navbar{display: inline-block; margin-bottom: 0;}
 
 .navbar-nav > li > a{color: #fff; font-size: 16px; background-image: none; border: none; font-family: 'source_sans_probold'; text-transform: uppercase; padding: 15px 0px; padding-right: 40px;}
-.navbar-nav > li > a:hover{color: #888888; background: none;}
+.navbar-nav > li > a:hover{color: #A9A9A9; background: none;}
 
+@media screen and (max-width: 1200px){    
+    .menu{height: 30px;}
+    .navbar-nav > li > a{color: #fff; font-size: 12px; background-image: none; border: none; font-family: 'source_sans_probold'; text-transform: uppercase; padding: 4px 0px; padding-right: 40px;}
+}
 .mini-menu{display: none;}
     .mini-menu .selectnav{display: none; width: 100%;background: #3b3e4a;font-weight: 600;padding: 10px;height: 42px; color: #fff; border-radius: 5px; cursor: pointer; outline: 0; border:none !important;}
     .selectnav select{appearance: none; border:none !important;}
@@ -135,9 +143,11 @@ p{padding-bottom: 25px; margin: 0;}
     pointer-events:none;
     display:block;
     }
+/************************************************
+   Banner style
+ ************************************************/
 
-
-.banner{}
+.banner{ padding: 2% 0 5%; }
 .banner .carousel-caption{top: 25%;}
 .banner .carousel-caption h1{margin: 0; font-size: 60px;font-family: 'source_sans_probold'; color: #fff; letter-spacing: 5px; text-transform: uppercase; padding-bottom: 20px;}
 .banner .carousel-caption h2{font-size: 28px; line-height: 36px;font-family: 'source_sans_prolight'; color: #fff; letter-spacing: 3px; padding-bottom: 20px;}
@@ -256,15 +266,15 @@ margin-top: 10px;
 .social [class^="fw-icon-"]:hover{background: #454855; color: #34b091; transition:all 1s;}
 .social li{display: inline-block;}
 
-.copy-rights{color: #34b091;
+.copy-rights{color: #FFFFFF;
     font-family: 'source_sans_proregular';
     background: #454855;
-    padding: 1%;
+    padding: 0.3%;
     bottom: 0px;
     left:0px;
     width:100%;}
-.copy-rights a{color: #34b091;font-size: 14px; font-family: 'source_sans_proregular'; text-decoration: none;}
-.copy-rights a:hover{color: #fff;}
+.copy-rights a{color: #FFFFFF;font-size: 1.5vh; font-family: 'source_sans_proregular'; text-decoration: none;}
+.copy-rights a:hover{color: #A9A9A9;}
 
 /************************************************
     Responsive Tweaks starts here
