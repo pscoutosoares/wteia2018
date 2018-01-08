@@ -81,6 +81,7 @@ footer{
     bottom: 0;
     display: flex;
     width: 100%;
+    padding-top: 2%;
 }
 h1, h2, h3, h4, h5, h6{margin: 0;}
 h1{}
@@ -104,8 +105,8 @@ p{padding-bottom: 25px; margin: 0;}
 .header-wrapper h1{overflow: hidden; text-align: left; background: #fff; padding-top: 4%;}
 .header-wrapper img{width: 80%;}
 .site-name{display: inline-block;}
-.site-name h1{margin: 0; font-size: 2.5vw; color: #808080; font-family: 'source_sans_probold'; text-transform: uppercase; letter-spacing: 2px; margin-left: -3%;}
-.site-name h2{font-size: 18px; line-height: 24px; color: #cac8c8; font-family: 'source_sans_prolight';}
+.site-name h1{margin: 0; font-size: 2.4vw; color: #808080; font-family: 'source_sans_probold'; text-transform: uppercase; letter-spacing: 2px; margin-left: -3%;}
+.site-name h2{margin: 0 0 0 -3%; font-size: 2vw; color: #cac8c8; font-family: 'source_sans_prolight'; text-transform: uppercase;}
 .menu{text-align: center; background: #34b091; height: 52px;}
 .navbar{display: inline-block; margin-bottom: 0;}
 
@@ -147,7 +148,7 @@ p{padding-bottom: 25px; margin: 0;}
    Banner style
  ************************************************/
 
-.banner{ padding: 2% 0 5%; }
+.banner{ padding: 0px 0px 5%; }
 .banner .carousel-caption{top: 25%;}
 .banner .carousel-caption h1{margin: 0; font-size: 60px;font-family: 'source_sans_probold'; color: #fff; letter-spacing: 5px; text-transform: uppercase; padding-bottom: 20px;}
 .banner .carousel-caption h2{font-size: 28px; line-height: 36px;font-family: 'source_sans_prolight'; color: #fff; letter-spacing: 3px; padding-bottom: 20px;}
@@ -248,6 +249,19 @@ margin-top: 10px;
 /************************************************
 	/ styles starts here
  ************************************************/
+.textPost{text-align: justify;}
+.textPost p{text-align: justify; font-size: 20px}
+.textPost h1{font-size: 40px; padding: 4% 0 2%; color: #808080 }
+
+
+.navbar.nav > li.dropdown.open.active > a:hover, 
+.navbar .nav > li.dropdown.open > a
+{
+   color: #fff;
+   background-color: #b91773;
+   border-color: #fff;
+}
+.nav .caret{border-top-color:#FFFFFF;border-bottom-color:#FFFFFF}
 .footer-wrapper{background: #3b3e4a;}
 .site-content{padding: 55px 0; overflow: hidden;}
 .site-content .block h1{font-size: 18px; line-height: 24px; color: #fff; text-transform: uppercase; font-family: 'source_sans_probold'; padding-bottom: 10px;}
@@ -270,12 +284,35 @@ margin-top: 10px;
     font-family: 'source_sans_proregular';
     background: #454855;
     padding: 0.3%;
-    bottom: 0px;
     left:0px;
     width:100%;}
-.copy-rights a{color: #FFFFFF;font-size: 1.5vh; font-family: 'source_sans_proregular'; text-decoration: none;}
+.copy-rights a{color: #FFFFFF;font-size: 0.8vw; font-family: 'source_sans_proregular'; text-decoration: none;}
 .copy-rights a:hover{color: #A9A9A9;}
 
 /************************************************
     Responsive Tweaks starts here
  ************************************************/
+.table{
+        margin: 70px auto;
+        position: relative;
+       border-collapse: collapse; 
+      }
+
+      .table-bordered td{
+        border: 2px solid #A9A9A9;
+      }
+
+      .table-bordered{
+        border: 2px solid #A9A9A9;
+      }
+
+      .tabela-cabecalho{
+        color: #ffffff;
+        background-color: #A9A9A9;
+        text-align: center;
+        font-weight: bold;
+      }
+      .textArea{
+        padding-top: 5%
+      }
+    
