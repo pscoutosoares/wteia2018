@@ -115,7 +115,7 @@ p{padding-bottom: 25px; margin: 0;}
 
 @media screen and (max-width: 1200px){    
     .menu{height: 30px;}
-    .navbar-nav > li > a{color: #fff; font-size: 12px; background-image: none; border: none; font-family: 'source_sans_probold'; text-transform: uppercase; padding: 4px 0px; padding-right: 40px;}
+    .navbar-nav > li > a{color: #fff; font-size: 12px; background-image: none; border: none; font-family: 'source_sans_probold'; text-transform: uppercase; padding: 4px 0px; padding-right: 30px;}
 }
 .mini-menu{display: none;}
     .mini-menu .selectnav{display: none; width: 100%;background: #3b3e4a;font-weight: 600;padding: 10px;height: 42px; color: #fff; border-radius: 5px; cursor: pointer; outline: 0; border:none !important;}
@@ -152,16 +152,16 @@ p{padding-bottom: 25px; margin: 0;}
 .banner .carousel-caption{top: 25%;}
 .banner .carousel-caption h1{margin: 0; font-size: 60px;font-family: 'source_sans_probold'; color: #fff; letter-spacing: 5px; text-transform: uppercase; padding-bottom: 20px;}
 .banner .carousel-caption h2{font-size: 28px; line-height: 36px;font-family: 'source_sans_prolight'; color: #fff; letter-spacing: 3px; padding-bottom: 20px;}
-.banner .carousel-caption .btn{color: #fff; font-size: 22px; line-height: 28px; font-family: 'source_sans_problack'; text-transform: uppercase; padding: 10px 25px; background: #34b091; border-radius: 40px; box-shadow: 0 3px 2px 0px #4a4c54; }
-.banner .carousel-control {top: 45%; width: 40px; height: 40px; line-height: 42px; font-size: 30px; background: #34b091; 
-                            border-radius: 50px; bottom: 42%; opacity: 0.8;}                           
+.banner .carousel-caption .btn{color: #fff; font-size: 22px; line-height: 28px; font-family: 'source_sans_problack'; text-transform: uppercase; padding: 10px 25px;}
+.banner .carousel-control {top: 45%; width: 40px; height: 40px; line-height: 42px; font-size: 30px; background: none; 
+                            border-radius: 50px; bottom: 42%; opacity: 1;}                           
 .banner .carousel-control.right{right: 10%;}
 .banner .carousel-control.left{left: 10%;}
 .banner .carousel-inner img{min-width: 100%; overflow:hidden; padding-bottom: 2%}
 
 .banner .carousel-caption h1{ opacity: 0;}
 .banner .carousel-caption h2{ opacity: 0;}
-.banner .carousel-caption .btn{opacity: 0;}
+.banner .carousel-caption .btn{opacity: 1;}
 .banner .carousel-inner:hover h1{ transition:all 1s; opacity: 0.9 !important;  }
 .banner .carousel-inner:hover h2{ transition:all 1s; opacity: 0.9 !important;  }
 .banner .carousel-inner:hover .btn{ transition:all 1s; opacity: 0.9 !important;  }
