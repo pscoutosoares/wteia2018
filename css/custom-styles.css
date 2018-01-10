@@ -305,7 +305,7 @@ margin-top: 10px;
 .input-group .form-control {border-radius: 19px;background: #454855; border: none;}
 .site-content .block .social li a{text-decoration: none; border-bottom: 0;}
 .site-content .block .social{margin-top: 8px;}
-.social {padding-bottom: 5%;}
+.social {padding-bottom: 5%; padding-left: 0px}
 .social [class^="fw-icon-"]{font-size: 18px; width: 40px; height: 40px; 
                             line-height: 14px; padding:14px; background: #e6e6e6; color: #419EA5; border-radius: 50%; display: inline-block; margin-right: 5px;}
 .social [class^="fw-icon-"]:hover{background: #67A24D; color: #FFF; transition:all 1s;}
