@@ -28,7 +28,6 @@
 
 
 
-
 @font-face {
     font-family: 'source_sans_problack_italic';
     src: url('../fonts/sourcesanspro-blackitalic-webfont.eot');
@@ -40,7 +39,6 @@
     font-style: normal;
 
 }
-
 
 
 
@@ -58,7 +56,6 @@
 
 
 
-
 @font-face {
     font-family: 'source_sans_prolight';
     src: url('../fonts/sourcesanspro-light-webfont.eot');
@@ -66,6 +63,32 @@
          url('../fonts/sourcesanspro-light-webfont.woff') format('woff'),
          url('../fonts/sourcesanspro-light-webfont.ttf') format('truetype'),
          url('../fonts/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'exo_bold';
+    src: url('../fonts/exo-bold_0-webfont.eot');
+    src: url('../fonts/exo-bold_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo-bold_0-webfont.woff') format('woff'),
+         url('../fonts/exo-bold_0-webfont.ttf') format('truetype'),
+         url('../fonts/exo-bold_0-webfont.svg#exo_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'exo_medium';
+    src: url('../fonts/exo-medium_0-webfont.eot');
+    src: url('../fonts/exo-medium_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo-medium_0-webfont.woff') format('woff'),
+         url('../fonts/exo-medium_0-webfont.ttf') format('truetype'),
+         url('../fonts/exo-medium_0-webfont.svg#exo_bold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -94,29 +117,30 @@ p{padding-bottom: 25px; margin: 0;}
 .last{padding-bottom: 0;}
 .ruler{border-bottom: 1px solid #c9c9c9;}
 .img-spacing{margin-right: 30px; margin-bottom: 30px;}
-.mainpage{margin-left: 5%; margin-right: 5%;}
+.mainpage{margin-left: 15%; margin-right: 15%;}
 
 /************************************************
 	Menu styles starts here
  ************************************************/
 
 
-.header-wrapper{overflow: hidden; text-align: center; background: #fff; padding-top: 15px; padding-bottom: 15px;}
+.header-wrapper{overflow: hidden; text-align: center; background: #e6e6e6;}
 .header-wrapper h1{overflow: hidden; text-align: left; background: #fff; padding-top: 4%;}
-.header-wrapper img{width: 80%;}
+.header-wrapper img{width: 100%; padding: 0 0 0 0; background-color: #e6e6e6; border:  none}
 .site-name{display: inline-block;}
 .site-name h1{margin: 0; font-size: 2.4vw; color: #808080; font-family: 'source_sans_probold'; text-transform: uppercase; letter-spacing: 2px; margin-left: -3%;}
 .site-name h2{margin: 0 0 0 -3%; font-size: 2vw; color: #cac8c8; font-family: 'source_sans_prolight'; text-transform: uppercase;}
-.menu{text-align: center; background: #34b091; height: 52px;}
+.menu{text-align: center; background: #67A24D; height: 52px;}
 .navbar{display: inline-block; margin-bottom: 0;}
 
-.navbar-nav > li > a{color: #fff; font-size: 16px; background-image: none; border: none; font-family: 'source_sans_probold'; text-transform: uppercase; padding: 15px 0px; padding-right: 40px;}
-.navbar-nav > li > a:hover{color: #A9A9A9; background: none;}
-
-@media screen and (max-width: 1200px){    
-    .menu{height: 30px;}
-    .navbar-nav > li > a{color: #fff; font-size: 12px; background-image: none; border: none; font-family: 'source_sans_probold'; text-transform: uppercase; padding: 4px 0px; padding-right: 30px;}
+.navbar-nav > li > a{color: #fff; font-size: 100%; background-image: none; border: none; font-family: 'exo_bold'; text-transform: uppercase; padding: 15px 0px; padding-right: 40px;}
+.navbar-nav > li > a:hover{color: #dedede; background: none;}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background:none ;
 }
+
 .mini-menu{display: none;}
     .mini-menu .selectnav{display: none; width: 100%;background: #3b3e4a;font-weight: 600;padding: 10px;height: 42px; color: #fff; border-radius: 5px; cursor: pointer; outline: 0; border:none !important;}
     .selectnav select{appearance: none; border:none !important;}
@@ -148,7 +172,7 @@ p{padding-bottom: 25px; margin: 0;}
    Banner style
  ************************************************/
 
-.banner{ padding: 0px 0px 5%; }
+.banner{ padding: 0px 0px 5%; margin:  }
 .banner .carousel-caption{top: 25%;}
 .banner .carousel-caption h1{margin: 0; font-size: 60px;font-family: 'source_sans_probold'; color: #fff; letter-spacing: 5px; text-transform: uppercase; padding-bottom: 20px;}
 .banner .carousel-caption h2{font-size: 28px; line-height: 36px;font-family: 'source_sans_prolight'; color: #fff; letter-spacing: 3px; padding-bottom: 20px;}
@@ -249,9 +273,9 @@ margin-top: 10px;
 /************************************************
 	/ styles starts here
  ************************************************/
-.textPost{text-align: justify;}
-.textPost p{text-align: justify; font-size: 20px}
-.textPost h1{font-size: 40px; padding: 4% 0 2%; color: #808080 }
+.textPost{text-align: justify; min-height: 400px}
+.textPost h1{font-size: 35px; padding: 4% 0 2%; color: #808080; font-family: "exo_bold"}
+.textPost p{text-align: justify; font-size: 16px; font-family: "exo_medium";}
 
 
 .navbar.nav > li.dropdown.open.active > a:hover, 
@@ -260,6 +284,12 @@ margin-top: 10px;
    color: #fff;
    background-color: #b91773;
    border-color: #fff;
+}
+
+.rodape{}
+.rodape img{
+  width:20%;
+  padding-bottom: 1%
 }
 .nav .caret{border-top-color:#FFFFFF;border-bottom-color:#FFFFFF}
 .footer-wrapper{background: #3b3e4a;}
@@ -275,22 +305,23 @@ margin-top: 10px;
 .input-group .form-control {border-radius: 19px;background: #454855; border: none;}
 .site-content .block .social li a{text-decoration: none; border-bottom: 0;}
 .site-content .block .social{margin-top: 8px;}
+.social {padding-bottom: 5%;}
 .social [class^="fw-icon-"]{font-size: 18px; width: 40px; height: 40px; 
-                            line-height: 14px; padding:14px; background: #34b091; color: #fff; border-radius: 50%; display: inline-block; margin-right: 5px;}
-.social [class^="fw-icon-"]:hover{background: #454855; color: #34b091; transition:all 1s;}
+                            line-height: 14px; padding:14px; background: #e6e6e6; color: #419EA5; border-radius: 50%; display: inline-block; margin-right: 5px;}
+.social [class^="fw-icon-"]:hover{background: #67A24D; color: #FFF; transition:all 1s;}
 .social li{display: inline-block;}
 
-.copy-rights{color: #FFFFFF;
-    font-family: 'source_sans_proregular';
-    background: #454855;
+.copy-rights{
+    font-family: 'exo_bold';
     padding: 0.3%;
     left:0px;
     width:100%;}
-.copy-rights a{color: #FFFFFF;font-size: 0.8vw; font-family: 'source_sans_proregular'; text-decoration: none;}
+.copy-rights a{color: #A9ABAE;font-size: 0.8vw; font-family: 'source_sans_proregular'; text-decoration: none;}
 .copy-rights a:hover{color: #A9A9A9;}
 
+
 /************************************************
-    Responsive Tweaks starts here
+    Table style
  ************************************************/
 .table{
         margin: 70px auto;
@@ -315,4 +346,26 @@ margin-top: 10px;
       .textArea{
         padding-top: 5%
       }
-    
+
+/************************************************
+    Responsive Tweaks starts here
+ ************************************************/
+
+@media screen and (max-width: 1400px){    
+    .menu{height: 30px;}
+    .navbar-nav > li > a{color: #fff; font-size: 12px; background-image: none; border: none; font-family: 'source_sans_probold'; text-transform: uppercase; padding: 4px 0px; padding-right: 30px;}
+    .textPost{text-align: justify; min-height: 300px}
+    .textPost h1{font-size: 25px; padding: 4% 0 2%; color: #808080; font-family: "exo_bold"}
+    .textPost p{text-align: justify; font-size: 10px; font-family: "exo_medium";}
+    .social [class^="fw-icon-"]{font-size: 9px; width: 20px; height: 20px; 
+                            line-height: 6px; padding:6px; background: #e6e6e6; color: #419EA5; border-radius: 50%; display: inline-block; margin-right: 5px;}
+}
+@media screen and (max-width: 1000px){    
+    .menu{height: 20px;}
+    .navbar-nav > li > a{color: #fff; font-size: 8px; background-image: none; border: none; font-family: 'source_sans_probold'; text-transform: uppercase; padding: 0px 0px; padding-right: 20px;}
+    .textPost{text-align: justify; min-height: 300px}
+    .textPost h1{font-size: 15px; padding: 4% 0 2%; color: #808080; font-family: "exo_bold"}
+    .textPost p{text-align: justify; font-size: 7px; font-family: "exo_medium";}
+    .social [class^="fw-icon-"]{font-size: 9px; width: 20px; height: 20px; 
+                            line-height: 6px; padding:6px; background: #e6e6e6; color: #419EA5; border-radius: 50%; display: inline-block; margin-right: 5px;}
+}
