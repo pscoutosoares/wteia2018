@@ -117,7 +117,7 @@ p{padding-bottom: 25px; margin: 0;}
 .last{padding-bottom: 0;}
 .ruler{border-bottom: 1px solid #c9c9c9;}
 .img-spacing{margin-right: 30px; margin-bottom: 30px;}
-.mainpage{margin-left: 15%; margin-right: 15%;}
+.mainpage{margin-left: 8%; margin-right: 8%;}
 
 /************************************************
 	Menu styles starts here
@@ -351,21 +351,63 @@ margin-top: 10px;
     Responsive Tweaks starts here
  ************************************************/
 
-@media screen and (max-width: 1400px){    
+@media screen and (max-width: 1350px){    
     .menu{height: 30px;}
-    .navbar-nav > li > a{color: #fff; font-size: 12px; background-image: none; border: none; font-family: 'source_sans_probold'; text-transform: uppercase; padding: 4px 0px; padding-right: 30px;}
+    .navbar-nav > li > a{color: #fff; font-size: 9px; background-image: none; border: none; font-family: 'source_sans_probold'; text-transform: uppercase; padding: 4px 0 0 30px!important;}
     .textPost{text-align: justify; min-height: 300px}
-    .textPost h1{font-size: 25px; padding: 4% 0 2%; color: #808080; font-family: "exo_bold"}
+    .textPost h1{font-size: 30px; padding: 4% 0 2%; color: #808080; font-family: "exo_bold"}
     .textPost p{text-align: justify; font-size: 10px; font-family: "exo_medium";}
     .social [class^="fw-icon-"]{font-size: 9px; width: 20px; height: 20px; 
-                            line-height: 6px; padding:6px; background: #e6e6e6; color: #419EA5; border-radius: 50%; display: inline-block; margin-right: 5px;}
+    line-height: 6px; padding:6px; background: #e6e6e6; color: #419EA5; border-radius: 50%; display: inline-block; margin-right: 5px;}
+    .mainpage{margin-left: 0; margin-right: 0;}
+
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 70px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 10px;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box;
+  }
 }
 @media screen and (max-width: 1000px){    
     .menu{height: 20px;}
-    .navbar-nav > li > a{color: #fff; font-size: 8px; background-image: none; border: none; font-family: 'source_sans_probold'; text-transform: uppercase; padding: 0px 0px; padding-right: 20px;}
+    .navbar-nav > li > a{color: #fff; font-size: 8px; background-image: none; border: none; font-family: 'source_sans_probold'; text-transform: uppercase; padding: 0 0 0 30px !important; padding-right: 20px;}
     .textPost{text-align: justify; min-height: 300px}
     .textPost h1{font-size: 15px; padding: 4% 0 2%; color: #808080; font-family: "exo_bold"}
     .textPost p{text-align: justify; font-size: 7px; font-family: "exo_medium";}
     .social [class^="fw-icon-"]{font-size: 9px; width: 20px; height: 20px; 
                             line-height: 6px; padding:6px; background: #e6e6e6; color: #419EA5; border-radius: 50%; display: inline-block; margin-right: 5px;}
+    .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 20px;
+    padding: 0 0;
+    margin: 0 0 0;
+    font-size: 8px;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box;
+  }                        
 }
