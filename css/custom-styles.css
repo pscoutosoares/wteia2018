@@ -288,7 +288,7 @@ margin-top: 10px;
 
 .rodape{}
 .rodape img{
-  width:20%;
+  width:70%;
   padding-bottom: 1%
 }
 .nav .caret{border-top-color:#FFFFFF;border-bottom-color:#FFFFFF}
@@ -357,8 +357,8 @@ margin-top: 10px;
     .textPost{text-align: justify; min-height: 300px}
     .textPost h1{font-size: 30px; padding: 4% 0 2%; color: #808080; font-family: "exo_bold"}
     .textPost p{text-align: justify; font-size: 10px; font-family: "exo_medium";}
-    .social [class^="fw-icon-"]{font-size: 9px; width: 20px; height: 20px; 
-    line-height: 6px; padding:6px; background: #e6e6e6; color: #419EA5; border-radius: 50%; display: inline-block; margin-right: 5px;}
+    .social [class^="fw-icon-"]{font-size: 18px; width: 40px; height: 40px; 
+                            line-height: 14px; padding:14px; background: #e6e6e6; color: #419EA5; border-radius: 50%; display: inline-block; margin-right: 5px;}
     .mainpage{margin-left: 0; margin-right: 0;}
 
   .dropdown-menu {
@@ -388,8 +388,8 @@ margin-top: 10px;
     .textPost{text-align: justify; min-height: 300px}
     .textPost h1{font-size: 15px; padding: 4% 0 2%; color: #808080; font-family: "exo_bold"}
     .textPost p{text-align: justify; font-size: 7px; font-family: "exo_medium";}
-    .social [class^="fw-icon-"]{font-size: 9px; width: 20px; height: 20px; 
-                            line-height: 6px; padding:6px; background: #e6e6e6; color: #419EA5; border-radius: 50%; display: inline-block; margin-right: 5px;}
+    .social [class^="fw-icon-"]{font-size: 18px; width: 40px; height: 40px; 
+                            line-height: 14px; padding:14px; background: #e6e6e6; color: #419EA5; border-radius: 50%; display: inline-block; margin-right: 5px;}
     .dropdown-menu {
     position: absolute;
     top: 100%;
