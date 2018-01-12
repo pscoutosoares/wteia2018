@@ -141,6 +141,7 @@ p{padding-bottom: 25px; margin: 0;}
   background:none ;
 }
 
+
 .mini-menu{display: none;}
     .mini-menu .selectnav{display: none; width: 100%;background: #3b3e4a;font-weight: 600;padding: 10px;height: 42px; color: #fff; border-radius: 5px; cursor: pointer; outline: 0; border:none !important;}
     .selectnav select{appearance: none; border:none !important;}
@@ -276,6 +277,8 @@ margin-top: 10px;
 .textPost{text-align: justify; min-height: 400px}
 .textPost h1{font-size: 35px; padding: 4% 0 2%; color: #808080; font-family: "exo_bold"}
 .textPost p{text-align: justify; font-size: 16px; font-family: "exo_medium";}
+.textPost ul{font-size: 20px;}
+.table-bordered td{border: 1px solid #A9A9A9 !important;}
 
 
 .navbar.nav > li.dropdown.open.active > a:hover, 
@@ -350,13 +353,32 @@ margin-top: 10px;
 /************************************************
     Responsive Tweaks starts here
  ************************************************/
-
+@media screen and (min-width: 1351px){
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: -12px !important;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 0 0 !important;
+    margin: 0 0 0;
+    font-size: 16px !important;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box;
+  }
+}
 @media screen and (max-width: 1350px){    
     .menu{height: 30px;}
-    .navbar-nav > li > a{color: #fff; font-size: 9px; background-image: none; border: none; font-family: 'source_sans_probold'; text-transform: uppercase; padding: 4px 0 0 30px!important;}
-    .textPost{text-align: justify; min-height: 300px}
-    .textPost h1{font-size: 30px; padding: 4% 0 2%; color: #808080; font-family: "exo_bold"}
-    .textPost p{text-align: justify; font-size: 10px; font-family: "exo_medium";}
+    .navbar-nav > li > a{color: #fff; font-size: 15px; background-image: none; border: none; font-family: 'source_sans_probold'; text-transform: uppercase; padding: 4px 0 0 30px!important;}
+    .textPost{text-align: justify; min-height: 300px} 
     .social [class^="fw-icon-"]{font-size: 18px; width: 40px; height: 40px; 
                             line-height: 14px; padding:14px; background: #e6e6e6; color: #419EA5; border-radius: 50%; display: inline-block; margin-right: 5px;}
     .mainpage{margin-left: 0; margin-right: 0;}
@@ -364,14 +386,14 @@ margin-top: 10px;
   .dropdown-menu {
     position: absolute;
     top: 100%;
-    left: 20%;
+    left: 15% ;
     z-index: 1000;
     display: none;
     float: left;
-    min-width: 70px;
-    padding: 5px 0;
+    min-width: 60px;
+    padding: 5px 0 ;
     margin: 2px 0 0;
-    font-size: 10px;
+    font-size: 15px ;
     list-style: none;
     background-color: #ffffff;
     border: 1px solid #cccccc;
@@ -383,12 +405,12 @@ margin-top: 10px;
   }
 }
 @media screen and (max-width: 1000px){    
-    .menu{height: 20px;}
-    .navbar-nav > li > a{color: #fff; font-size: 8px; background-image: none; border: none; font-family: 'source_sans_probold'; text-transform: uppercase; padding: 0 0 0 30px !important; padding-right: 20px;}
+    .menu{height: 25px;}
+    .navbar-nav > li > a{color: #fff; font-size: 10px; background-image: none; border: none; font-family: 'source_sans_probold'; text-transform: uppercase; padding: 2px 0 0 30px !important; padding-right: 20px;}
     .textPost{text-align: justify; min-height: 300px}
-    .textPost h1{font-size: 15px; padding: 4% 0 2%; color: #808080; font-family: "exo_bold"}
-    .textPost p{text-align: justify; font-size: 7px; font-family: "exo_medium";}
-    .social [class^="fw-icon-"]{font-size: 18px; width: 40px; height: 40px; 
+    .textPost ul{font-size: 16px;}
+     .textPost h1{font-size: 30px; padding: 4% 0 2%; color: #808080; font-family: "exo_bold"}
+    .textPost p{text-align: justify; font-size: 14px; font-family: "exo_medium";}
                             line-height: 14px; padding:14px; background: #e6e6e6; color: #419EA5; border-radius: 50%; display: inline-block; margin-right: 5px;}
     .dropdown-menu {
     position: absolute;
@@ -400,7 +422,7 @@ margin-top: 10px;
     min-width: 20px;
     padding: 0 0;
     margin: 0 0 0;
-    font-size: 8px;
+    font-size: 10px;
     list-style: none;
     background-color: #ffffff;
     border: 1px solid #cccccc;
