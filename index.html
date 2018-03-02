@@ -1,8 +1,21 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113290005-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113290005-1');
+</script>
+
+
+  <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -34,7 +47,6 @@
     ul {
       font-family: exo_medium;
     }
-    
     </style>
   </head>
   <body>
@@ -44,6 +56,11 @@
       </div>
       <div class="menu">
         <div class="navbar">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <i class="fw-icon-th-list"></i>
+            </button>
+          </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li><a href="index.html">Página inicial</a></li>
@@ -51,9 +68,10 @@
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Programação<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="geral.html">Grade geral</a></li>
-                  <li><a href="palestras.html">Palestras</a></li>
+              <!--    <li><a href="palestras.html">Palestras</a></li>
                   <li><a href="paineis.html">Painéis</a></li>
                   <li><a href="minicursos.html">Minicursos</a></li>
+				  -->
                 </ul>
               </li>
               <li><a href="inscricoes.html">Inscrições</a></li>
@@ -61,11 +79,18 @@
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Informações<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="local.html">Local do Evento</a></li>
+                    <li><a href="local.html">Local do evento</a></li>
                     <li><a href="contato.html">Contato</a></li>
                   </ul>
               </li>
-              <li><a href="sobre.html">Sobre o W-Teia</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sobre o W-Teia<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="sobre.html">O evento</a></li>
+                    <li><a href="instituicoes.html">Instituições</a></li>
+                    <li><a href="organizacao.html">Organização</a></li>
+                  </ul>
+              </li>
             </ul>
           </div><!--/.navbar-collapse -->
         </div>
@@ -132,7 +157,6 @@
               <div class="carousel-caption">
               </div>
             </div>
-           
           </div>
               <!-- Controls -->
             <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
@@ -144,23 +168,47 @@
         </div>
       </div>
     </div>
-    <!-- Redes sociais -->
-      <div class="col-md-12">
-        <div class="text-center">
-          <div class="rodape">
-            <img src="img/rodape.png">
+ 
+    <div class="row rodape">
+      <div class="col-sm-12">
+        <div class="col-sm-4 realizacao" style="padding-top: 20px">
+            <img src="img/rodape/0.png" style="width: 5%">
+            <a href="http://ww3.uag.ufrpe.br/" target = "_blank"><img src="img/rodape/01.png" style="width: 15%"></a>
+            <a href="http://www.aesga.edu.br/" target = "_blank"><img src="img/rodape/02.png" style="width: 25%"></a>
+            <a href="http://www.upe.br/" target = "_blank"><img src="img/rodape/03.png" style="width: 25%"></a>
+        </div>
+        <div class="col-sm-7 apoio">
+          <div>
+            <a><img src="img/rodape/apoio.png" style="width: 3%"> </a>
+            <a href="http://www.ifpe.edu.br/campus/garanhuns" target = "_blank"><img src="img/rodape/04.png" style="width: 10%"></a>
+            <a href="http://www.sbc.org.br/" target = "_blank"><img src="img/rodape/05.png" style="width: 8%"> </a>
+            <a href="http://cnpq.br/" target = "_blank"><img src="img/rodape/06.png" style="width: 8%"></a>
+            <a href="http://www.pe.senac.br/" target = "_blank"><img src="img/rodape/07.png" style="width: 8%"> </a>
+            <a href="http://garanhuns.pe.gov.br/" target = "_blank"><img src="img/rodape/08.png" style="width: 12%"></a>
+            <a href="https://www.facebook.com/cdlgus/" target = "_blank"><img src="img/rodape/09.png" style="width: 12%"></a>
+            <a href="http://www.sebrae.com.br/sites/PortalSebrae/ufs/pe?codUf=18" target = "_blank"><img src="img/rodape/10.png" style="width: 10%"></a>
+            <a href="https://www.facebook.com/TimeJunior/" target = "_blank"><img src="img/rodape/11.png" style="width: 10%"></a> 
+          </div>
+          <div>
+            <a><img src="img/rodape/patrocinio.png" style="width: 2%"></a>
+            <a href="http://mbasistemas.com.br/sobre" target = "_blank"><img src="img/rodape/12.png" style="width: 20%"></a>
+            <a href="https://www.facebook.com/SoftLinkSistemas" target = "_blank"><img src="img/rodape/13.png" style="width: 20%"></a>
+            <a href="https://www.facebook.com/cygnusinfostore/" target = "_blank"><img src="img/rodape/14.png" style="width: 20%"></a>
+            <a href="http://www.procfit.com.br/" target = "_blank"><img src="img/rodape/15.png" style="width: 20%"></a>
           </div>
         </div>
       </div>
-      <div class="col-md-12">
-        <div class="text-center">
-          <ul class="social">
-            <li><a href="https://twitter.com/wteia2018/" target = "_blank"><i class="fw-icon-twitter"></i></a></li>
-            <li><a href="https://www.facebook.com/W-Teia-660999764023601/" target = "_blank"><i class="fw-icon-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com/wteia" target = "_blank"><i class="fw-icon-instagram"></i></a></li>
-          </ul>
-        </div>
+    </div>
+    <div class="col-sm-12">
+      <div class="text-center">
+        <ul class="social">
+          <li><a href="https://twitter.com/wteia2018/" target = "_blank"><i class="fw-icon-twitter"></i></a></li>
+          <li><a href="https://www.facebook.com/W-Teia-660999764023601/" target = "_blank"><i class="fw-icon-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/wteia" target = "_blank"><i class="fw-icon-instagram"></i></a></li>
+        </ul>
       </div>
+    </div>
+    
     
     <!-- Bootstrap core JavaScript
     ================================================== -->

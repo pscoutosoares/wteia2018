@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -45,36 +46,55 @@
       </div>
       <div class="menu">
         <div class="navbar">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <i class="fw-icon-th-list"></i>
-              </button>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li><a href="index.html">Página inicial</a></li>
-                <li><a href="programacao.html">Programação</a></li>
-                <li><a href="inscricoes.html">Inscrições</a></li>
-                <li><a href="informacoes.html">Informações</a></li>
-                <li><a href="sobre.html">Sobre o W-Teia</a></li>
-              </ul>
-            </div><!--/.navbar-collapse -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <i class="fw-icon-th-list"></i>
+            </button>
           </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Página inicial</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Programação<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="geral.html">Grade geral</a></li>
+                  <li><a href="palestras.html">Palestras</a></li>
+                  <li><a href="paineis.html">Painéis</a></li>
+                  <li><a href="minicursos.html">Minicursos</a></li>
+                </ul>
+              </li>
+              <li><a href="inscricoes.html">Inscrições</a></li>
+              <li><a href="submissao.html">Submissão de trabalhos</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Informações<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="local.html">O evento</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sobre o W-Teia<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="sobre.html">O evento</a></li>
+                    <li><a href="instituicoes.html">Instituições</a></li>
+                    <li><a href="organizacao.html">Organização</a></li>
+                  </ul>
+              </li>
+            </ul>
+          </div><!--/.navbar-collapse -->
         </div>
         <div class="mini-menu">
           <label>
             <select class="selectnav">
-              <option value="#" selected="">Página inicial</option>
-              <option value="#">Programação</option>
-              <option value="#">Inscrições</option>
-              <option value="#">Informações</option>
-              <option value="#">Sobre o W-Teia</option>
+              <option value="index.html" selected="">Página inicial</option>
+              <option value="programacao.html">Programação</option>
+              <option value="inscricoes.html">Inscrições</option>
+              <option value="informacoes.html">Informações</option>
+              <option value="sobre.html">Sobre o W-Teia</option>
             </select>
           </label>
         </div>
-      </div>
-    <!-- Main jumbotron for a primary marketing message or call to action -->
+      </div>    <!-- Main jumbotron for a primary marketing message or call to action -->
 
 
     <!-- Bootstrap core JavaScript

@@ -169,6 +169,9 @@ p{padding-bottom: 25px; margin: 0;}
     pointer-events:none;
     display:block;
     }
+
+
+
 /************************************************
    Banner style
  ************************************************/
@@ -279,6 +282,7 @@ margin-top: 10px;
 .textPost p{text-align: justify; font-size: 16px; font-family: "exo_medium";}
 .textPost ul{font-size: 20px;}
 .table-bordered td{border: 1px solid #A9A9A9 !important;}
+.organizacao p, h1{text-align: center;}
 
 
 .navbar.nav > li.dropdown.open.active > a:hover, 
@@ -289,11 +293,15 @@ margin-top: 10px;
    border-color: #fff;
 }
 
-.rodape{}
-.rodape img{
-  width:70%;
-  padding-bottom: 1%
+.realizacao{
+text-align: right;
+margin-left: 6%;
 }
+
+.rodape{
+  padding-bottom: 2%;
+}
+
 .nav .caret{border-top-color:#FFFFFF;border-bottom-color:#FFFFFF}
 .footer-wrapper{background: #3b3e4a;}
 .site-content{padding: 55px 0; overflow: hidden;}
@@ -404,7 +412,7 @@ margin-top: 10px;
     background-clip: padding-box;
   }
 }
-@media screen and (max-width: 1000px){    
+@media screen and (max-width: 1000px){   
     .menu{height: 25px;}
     .navbar-nav > li > a{color: #fff; font-size: 10px; background-image: none; border: none; font-family: 'source_sans_probold'; text-transform: uppercase; padding: 2px 0 0 30px !important; padding-right: 20px;}
     .textPost{text-align: justify; min-height: 300px}
@@ -432,4 +440,9 @@ margin-top: 10px;
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
     background-clip: padding-box;
   }                        
-}
+@media screen and (max-width: 770px){  
+  .realizacao{
+  text-align: left;
+  margin-left: 0;
+  }
+} 
