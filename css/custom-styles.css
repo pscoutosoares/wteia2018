@@ -304,6 +304,9 @@ margin-left: 6%;
 .rodape{
   padding-bottom: 2%;
 }
+.rodape hr{
+  border-color: #A9A9A9;
+}
 
 .nav .caret{border-top-color:#FFFFFF;border-bottom-color:#FFFFFF}
 .footer-wrapper{background: #3b3e4a;}
